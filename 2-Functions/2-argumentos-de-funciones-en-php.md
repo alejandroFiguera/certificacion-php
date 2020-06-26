@@ -16,7 +16,7 @@ Se pueden pasar argumentos por **valor**, por **referencia** y por **valor prede
 <?php
 // En este ejemplo vamos a pasar una variable array:
 $array = ['perro', 'gato', 'avestruz'];
-function mostrarAnimales($animales){
+function mostrarAnimales($animales)
 {
     foreach ($animales as $animal){
         echo $animal . "<br>";
